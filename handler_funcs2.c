@@ -94,7 +94,7 @@ delete_dnodeint_at_index(stack, 0);
 delete_dnodeint_at_index(stack, 0);
 node = add_dnodeint(stack, mul);
 if (!node)
-{    
+{
 dprintf(STDERR_FILENO, MALLOC_FAIL);
 free_all(1);
 exit(EXIT_FAILURE);
